@@ -4,7 +4,7 @@ import { StatBox, List, Item, Label, Title } from './Statistics.styled';
 export const Statistics = ({ title, stats }) => {
   return (
     <StatBox>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
       <List>
         {stats.map(stat => {
           return (

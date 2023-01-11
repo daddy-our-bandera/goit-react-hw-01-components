@@ -35,6 +35,7 @@ export const App = () => {
 
       <Container title="Task 2">
         <Statistics title="Upload stats" stats={data} />
+        <Statistics stats={data} />
       </Container>
 
       <Container title="Task 3">

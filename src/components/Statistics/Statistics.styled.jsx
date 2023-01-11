@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StatBox = styled.div`
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid darkgrey;
