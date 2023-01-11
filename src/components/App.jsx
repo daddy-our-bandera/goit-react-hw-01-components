@@ -35,9 +35,10 @@ export const App = () => {
 
       <Container title="Task 2">
         <Statistics title="Upload stats" stats={data} />
+      </Container>
+      <Container>
         <Statistics stats={data} />
       </Container>
-
       <Container title="Task 3">
         <FriendList friends={friends} />
       </Container>
